@@ -220,7 +220,7 @@ sink_vertices(G) ->
 in_degree(G, V) ->
     degree(G, V, in).
 
--spec out_degree(digraph(), vertex()) -> non_neg_integer().
+-spec out_degree(mdigraph(), vertex()) -> non_neg_integer().
 out_degree(G, V) ->
     degree(G, V, out).
 
